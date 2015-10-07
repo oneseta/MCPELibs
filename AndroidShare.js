@@ -7,5 +7,6 @@ AndroidShare={
 		var mimeType=new java.lang.String[1];
 		mimeType[0]=ClipDescription.MIMETYPE_TEXT_PLAIN;
 		var cd=new ClipData(new ClipDescription("text_data", mimeType),item);
+		print("クリップボードにコピーしました");
 	}
 };
