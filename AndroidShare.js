@@ -1,7 +1,7 @@
-var ClipData=android.content.ClipData;
-var ClipDescription=android.content.ClipDescription;
+ClipData=android.content.ClipData;
+ClipDescription=android.content.ClipDescription;
 
-var getAct=com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
+getAct=com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
 
 AndroidShare={
 	clipBoard:function(t){
